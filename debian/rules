@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+
+%:
+	dh $@
+
+DESTDIR = debian/composer
+
+override_dh_install:
+	install -m 755 -d $(DESTDIR)/usr/bin
+	install -m 755 composer.phar $(DESTDIR)/usr/bin/composer

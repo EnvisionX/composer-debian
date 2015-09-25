@@ -1,0 +1,18 @@
+Source: composer
+Section: php
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/EnvisionX/composer-debian
+Vcs-Browser: https://github.com/EnvisionX/composer-debian
+Vcs-Git: https://github.com/EnvisionX/composer-debian.git
+
+Package: composer
+Architecture: all
+Depends: php5-cli
+Description: Application-level package manager for the PHP programming language
+ Provides a standard format for managing dependencies of PHP software
+ and required libraries. It was developed by Nils Adermann and Jordi
+ Boggiano. Composer is strongly inspired by Node.js's "npm" and Ruby's
+ "bundler".
