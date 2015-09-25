@@ -3,7 +3,7 @@
 The repo contains so called DEBIAN directory with
 scripts and configs needed to package the
 [Composer](https://getcomposer.org/) package manager
-into a DEB package for the Debian Wheezy distro.
+into a DEB package for the Debian Jessie distro.
 
 ## Notes
 
