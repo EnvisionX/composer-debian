@@ -1,3 +1,10 @@
+composer (20150925.1.0) unstable; urgency=low
+
+  * readme minor fix
+  * add just downloaded Composer binary
+
+ -- Oleksii Klitovchenko <oleksii.klitovchenko@envisionx.co>  Sun, 22 Mar 2020 09:59:02 +0200
+
 composer (20150925) unstable; urgency=low
 
   * Initial release.
